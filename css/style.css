@@ -240,10 +240,10 @@ footer .mail{
     grid-template-columns: repeat(3, 450px);
     grid-template-rows: repeat(4, 250px);
     grid-template-areas:
-    "item-1-maquillaje item-2-maquillaje item-3-maquillaje"
-    "item-1-maquillaje item-2-maquillaje item-3-maquillaje"
-    "item-4-maquillaje item-5-maquillaje item-6"
-    "item-4-maquillaje item-5-maquillaje item-6";
+    "item-1 item-2 item-3"
+    "item-1 item-2 item-3"
+    "item-4 item-5 item-6"
+    "item-4 item-5 item-6";
     justify-content: center;
     margin: 25px;
     padding: 15px;
@@ -251,26 +251,26 @@ footer .mail{
 
 }
 
-/**GRID AREAS**/
+/**GRID AREAS MAQUILLAJE**/
 
 .item-1-maquillaje{
-    grid-area: item-1-maquillaje;
+    grid-area: item-1;
 }
 
 .item-2-maquillaje{
-    grid-area: item-2-maquillaje;
+    grid-area: item-2;
 }
 
 .item-3-maquillaje{
-    grid-area: item-3-maquillaje;
+    grid-area: item-3;
 }
 
 .item-4-maquillaje{
-    grid-area: item-4-maquillaje;
+    grid-area: item-4;
 }
 
 .item-5-maquillaje{
-    grid-area: item-5-maquillaje;
+    grid-area: item-5;
 }
 
 .item-6-maquillaje{
@@ -366,4 +366,128 @@ footer .mail{
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
+}
+
+/**GRID FRAGANCIAS**/
+
+.grid-container-fragancias{
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    grid-template-rows: repeat(4, 250px);
+    grid-template-areas:
+    "item-1 item-2 item-3"
+    "item-1 item-2 item-3"
+    "item-4 item-5 item-6"
+    "item-4 item-5 item-6";
+    justify-content: center;
+    margin: 25px;
+    padding: 15px;
+    gap: 20px;
+
+}
+
+/**GRID AREAS FRAGANCIAS**/
+
+.item-1-fragancias{
+    grid-area: item-1;
+}
+
+.item-2-fragancias{
+    grid-area: item-2;
+}
+
+.item-3-fragancias{
+    grid-area: item-3;
+}
+
+.item-4-fragancias{
+    grid-area: item-4;
+}
+
+.item-5-fragancias{
+    grid-area: item-5;
+}
+
+.item-6-fragancias{
+    grid-area: item-6;
+}
+
+/**GRID ESTILOS**/
+
+.item-1-fragancias img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-1-fragancias p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-2-fragancias img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-2-fragancias p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-3-fragancias img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-3-fragancias p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-4-fragancias img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-4-fragancias p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-5-fragancias img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-5-fragancias p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-6-fragancias img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-6-fragancias p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
