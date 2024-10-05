@@ -89,9 +89,14 @@ input{
     background-color: #ebe1c7;
 }
 
-main section .texto-central{
+main section div p.texto-central{
     color: #FFE7A9;
     background-color: #224948;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    text-decoration: underline;
+
 }
 
 .fragancias{
@@ -147,14 +152,6 @@ main section .texto-central{
     align-self: center;
     margin-left: 25px;
 
-}
-
-.container-h2 p{
-    background-color: rgb(197, 179, 182);
-    padding: 10px;
-    border-radius: 10px;
-    margin: 20px;
-    text-decoration: underline;
 }
 
 .boton-busqueda{
