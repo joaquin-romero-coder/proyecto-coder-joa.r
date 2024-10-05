@@ -168,6 +168,8 @@ main section .texto-central{
     margin: 2px;
 }
 
+/**GRIDS DEL INDEX**/
+
 .grid-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -181,21 +183,16 @@ main section .texto-central{
     
     grid-column: 1/2;
     grid-row: 1/4;
-    border-radius: 3px;
-
 }
 
 .grid-item-2{
     grid-column: 2/3;
     grid-row: 1/4;
-    border-radius: 3px;
 }
 
 .grid-item-3{
     grid-column: 3/4;
-    grid-row: 1/4;
-    border-radius: 3px;
-    
+    grid-row: 1/4;  
 }
 
 .grid-item-1 img{
@@ -216,6 +213,7 @@ main section .texto-central{
     width: 450px;
 }
 
+/**FOOTER**/
 
 footer .contactar{
     color: #224948;
@@ -232,4 +230,140 @@ footer .mail{
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
+}
+
+
+/**GRID MAQUILLAJES**/
+
+.grid-container-maquillajes{
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    grid-template-rows: repeat(4, 250px);
+    grid-template-areas:
+    "item-1-maquillaje item-2-maquillaje item-3-maquillaje"
+    "item-1-maquillaje item-2-maquillaje item-3-maquillaje"
+    "item-4-maquillaje item-5-maquillaje item-6"
+    "item-4-maquillaje item-5-maquillaje item-6";
+    justify-content: center;
+    margin: 25px;
+    padding: 15px;
+    gap: 20px;
+
+}
+
+/**GRID AREAS**/
+
+.item-1-maquillaje{
+    grid-area: item-1-maquillaje;
+}
+
+.item-2-maquillaje{
+    grid-area: item-2-maquillaje;
+}
+
+.item-3-maquillaje{
+    grid-area: item-3-maquillaje;
+}
+
+.item-4-maquillaje{
+    grid-area: item-4-maquillaje;
+}
+
+.item-5-maquillaje{
+    grid-area: item-5-maquillaje;
+}
+
+.item-6-maquillaje{
+    grid-area: item-6;
+}
+
+/**GRID ESTILOS**/
+
+.item-1-maquillaje img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-1-maquillaje p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-2-maquillaje img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-2-maquillaje p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-3-maquillaje img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-3-maquillaje p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-4-maquillaje img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-4-maquillaje p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-5-maquillaje img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-5-maquillaje p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-6-maquillaje img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-6-maquillaje p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-comprar{
+    background-color: #224948;
+    color: #FFE7A9;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
 }
