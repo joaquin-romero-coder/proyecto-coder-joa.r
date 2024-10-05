@@ -163,7 +163,7 @@ main section .texto-central{
 }
 
 
-.button :hover{
+.enlaces :hover{
     color: white;
     margin: 2px;
 }
