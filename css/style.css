@@ -488,3 +488,160 @@ footer .mail{
     margin: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+main .cuidado-piel img{
+    width: 35%;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.cuidado-piel{
+    display: flex;
+    justify-content: center;
+}
+
+.tips-piel h3{
+    text-align: center;
+}
+
+
+.texto-informativo li{
+    background-color:#224948 ;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid black;
+}
+
+.info-piel p{
+    color: #FFE7A9;
+}
+
+ main .tips-piel{
+    border-bottom: 1px solid black;
+
+}
+
+.grid-container-piel{
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    grid-template-rows: repeat(4, 250px);
+    grid-template-areas:
+    "item-1 item-2 item-3"
+    "item-1 item-2 item-3"
+    "item-4 item-5 item-6"
+    "item-4 item-5 item-6";
+    justify-content: center;
+    margin: 25px;
+    padding: 15px;
+    gap: 20px;
+
+}
+
+/**GRID AREAS FRAGANCIAS**/
+
+.item-1-piel{
+    grid-area: item-1;
+}
+
+.item-2-piel{
+    grid-area: item-2;
+}
+
+.item-3-piel{
+    grid-area: item-3;
+}
+
+.item-4-piel{
+    grid-area: item-4;
+}
+
+.item-5-piel{
+    grid-area: item-5;
+}
+
+.item-6-piel{
+    grid-area: item-6;
+}
+
+/**GRID ESTILOS**/
+
+.item-1-piel img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-1-piel p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-2-piel img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-2-piel p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-3-piel img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-3-piel p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-4-piel img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-4-piel p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-5-piel img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-5-piel p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-6-piel img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-6-piel p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
