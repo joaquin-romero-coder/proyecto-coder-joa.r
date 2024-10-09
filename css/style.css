@@ -16,7 +16,7 @@ header{
 }
 header section{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 20px;
 }
@@ -501,10 +501,6 @@ main .cuidado-piel img{
 .cuidado-piel{
     display: flex;
     justify-content: center;
-}
-
-.tips-piel h3{
-    text-align: center;
 }
 
 
