@@ -489,6 +489,8 @@ footer .mail{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 main .cuidado-piel img{
     width: 35%;
     margin: 15px;
@@ -524,6 +526,8 @@ main .cuidado-piel img{
 
 }
 
+/*GRID CONTAINER CUIDADO DE LA PIEL*/
+
 .grid-container-piel{
     display: grid;
     grid-template-columns: repeat(3, 450px);
@@ -540,7 +544,7 @@ main .cuidado-piel img{
 
 }
 
-/**GRID AREAS FRAGANCIAS**/
+/**GRID AREAS PIEL**/
 
 .item-1-piel{
     grid-area: item-1;
