@@ -1,0 +1,596 @@
+/**RESET DE CSS**/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    color: black;
+    font-size: 16px;
+}
+/** ESTILOS**/
+
+
+body{
+     background-color:#ebe1c7;
+     font-style: oblique;
+}
+
+
+ footer{
+    background-color:#DD9184 ;
+    height: 80px;
+    border-top: 1px solid rgb(0, 0, 0);
+ }
+
+ footer div{
+    color: rgb(227, 237, 237);
+}
+
+
+ span{
+    color: #DD9184;
+    text-decoration: underline;
+}
+
+main section h2{
+    text-align: center;
+}
+
+
+main section div p.texto-central{
+    color: #FFE7A9;
+    background-color: #224948;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    text-decoration: underline;
+
+}
+
+.fragancias{
+    color:#DD9184;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.maquillajes{
+    color: #DD9184;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+.cuidado-de-la-piel{
+    color: #DD9184;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.sobre-nosotros{
+    color: #DD9184;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.container-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-imagen img{
+    width: 45rem;
+    margin: 25px;
+    border-radius: 10px;
+    border: 1px solid rgb(106, 104, 104);
+}
+
+.container-h2{
+    align-self: center;
+    margin-left: 25px;
+
+}
+
+.boton-busqueda{
+    justify-items: center;
+    margin: 5px;
+}
+
+
+.enlaces :hover{
+    color: white;
+    margin: 2px;
+}
+
+/**GRIDS DEL INDEX**/
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 190px);
+    margin: 25px;
+    gap: 10px;
+}
+
+
+.grid-item-1{
+    
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.grid-item-2{
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+
+.grid-item-3{
+    grid-column: 3/4;
+    grid-row: 1/4;  
+}
+
+.grid-item-1 img{
+    padding: 5px;
+    height: 590px;
+    width: 450px;
+}
+
+.grid-item-2 img{
+    padding: 5px;
+    height: 590px;
+    width: 450px;
+}
+
+.grid-item-3 img{
+    padding: 5px;
+    height: 590px;
+    width: 450px;
+}
+
+/**FOOTER**/
+
+footer .contactar{
+    color: #224948;
+    margin: 5px;
+    text-decoration: underline;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+footer .mail{
+    color: #224948;
+    margin: 5px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+
+/**GRID MAQUILLAJES**/
+
+.grid-container-maquillajes{
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    grid-template-rows: repeat(4, 250px);
+    grid-template-areas:
+    "item-1 item-2 item-3"
+    "item-1 item-2 item-3"
+    "item-4 item-5 item-6"
+    "item-4 item-5 item-6";
+    justify-content: center;
+    margin: 25px;
+    padding: 15px;
+    gap: 20px;
+
+}
+
+/**GRID AREAS MAQUILLAJE**/
+
+.item-1-maquillaje{
+    grid-area: item-1;
+}
+
+.item-2-maquillaje{
+    grid-area: item-2;
+}
+
+.item-3-maquillaje{
+    grid-area: item-3;
+}
+
+.item-4-maquillaje{
+    grid-area: item-4;
+}
+
+.item-5-maquillaje{
+    grid-area: item-5;
+}
+
+.item-6-maquillaje{
+    grid-area: item-6;
+}
+
+/**GRID ESTILOS**/
+
+.item-1-maquillaje img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-1-maquillaje p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-2-maquillaje img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-2-maquillaje p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-3-maquillaje img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-3-maquillaje p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-4-maquillaje img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-4-maquillaje p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-5-maquillaje img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-5-maquillaje p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-6-maquillaje img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-6-maquillaje p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-comprar{
+    background-color: #224948;
+    color: #FFE7A9;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/**GRID FRAGANCIAS**/
+
+.grid-container-fragancias{
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    grid-template-rows: repeat(4, 250px);
+    grid-template-areas:
+    "item-1 item-2 item-3"
+    "item-1 item-2 item-3"
+    "item-4 item-5 item-6"
+    "item-4 item-5 item-6";
+    justify-content: center;
+    margin: 25px;
+    padding: 15px;
+    gap: 20px;
+
+}
+
+/**GRID AREAS FRAGANCIAS**/
+
+.item-1-fragancias{
+    grid-area: item-1;
+}
+
+.item-2-fragancias{
+    grid-area: item-2;
+}
+
+.item-3-fragancias{
+    grid-area: item-3;
+}
+
+.item-4-fragancias{
+    grid-area: item-4;
+}
+
+.item-5-fragancias{
+    grid-area: item-5;
+}
+
+.item-6-fragancias{
+    grid-area: item-6;
+}
+
+/**GRID ESTILOS**/
+
+.item-1-fragancias img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-1-fragancias p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-2-fragancias img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-2-fragancias p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-3-fragancias img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-3-fragancias p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-4-fragancias img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-4-fragancias p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-5-fragancias img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-5-fragancias p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-6-fragancias img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-6-fragancias p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+main .cuidado-piel img{
+    width: 35%;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.cuidado-piel{
+    display: flex;
+    justify-content: center;
+}
+
+
+.texto-informativo li{
+    background-color:#224948 ;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid black;
+}
+
+.info-piel p{
+    color: #FFE7A9;
+}
+
+ main .tips-piel{
+    border-bottom: 1px solid black;
+
+}
+
+/*GRID CONTAINER CUIDADO DE LA PIEL*/
+
+.grid-container-piel{
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    grid-template-rows: repeat(4, 250px);
+    grid-template-areas:
+    "item-1 item-2 item-3"
+    "item-1 item-2 item-3"
+    "item-4 item-5 item-6"
+    "item-4 item-5 item-6";
+    justify-content: center;
+    margin: 25px;
+    padding: 15px;
+    gap: 20px;
+
+}
+
+/**GRID AREAS PIEL**/
+
+.item-1-piel{
+    grid-area: item-1;
+}
+
+.item-2-piel{
+    grid-area: item-2;
+}
+
+.item-3-piel{
+    grid-area: item-3;
+}
+
+.item-4-piel{
+    grid-area: item-4;
+}
+
+.item-5-piel{
+    grid-area: item-5;
+}
+
+.item-6-piel{
+    grid-area: item-6;
+}
+
+/**GRID ESTILOS**/
+
+.item-1-piel img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-1-piel p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-2-piel img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-2-piel p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-3-piel img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-3-piel p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-4-piel img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-4-piel p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-5-piel img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-5-piel p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-6-piel img{
+    padding: 10px;
+    margin: 5px;
+    height: 420px;
+    width: 400px;
+}
+
+.item-6-piel p{
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
