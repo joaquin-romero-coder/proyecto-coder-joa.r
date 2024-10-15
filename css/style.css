@@ -10,6 +10,7 @@ html {
   font-size: 16px;
 }
 
+/*HEADER*/
 header {
   border-bottom: 1px solid black;
   background-color: #DD9184;
@@ -49,5 +50,7 @@ header nav ul li a {
   margin: 7px;
   padding: 10px;
 }
+
+/*/HEADER*/
 
 /*# sourceMappingURL=style.css.map */
