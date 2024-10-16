@@ -52,5 +52,26 @@ header nav ul li a {
 }
 
 /*/HEADER*/
+/*ESTILOS*/
+body {
+  background-color: #ebe1c7;
+  font-style: oblique;
+}
+
+main section div p.texto-central {
+  color: #FFE7A9;
+  background-color: #224948;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  text-decoration: underline;
+}
+main section h2 {
+  text-align: center;
+}
+main section h2 span {
+  color: #DD9184;
+  text-decoration: underline;
+}
 
 /*# sourceMappingURL=style.css.map */
