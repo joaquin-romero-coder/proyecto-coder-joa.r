@@ -1,6 +1,6 @@
 main{
     .cuidado-de-la-piel{
-        color: #DD9184;
+        color: $color-titulos;
         text-align: center;
         text-decoration: none;
         text-shadow: 5px 5px 5px;
@@ -27,8 +27,8 @@ main{
 
     .texto-informativo{
         li{
-            background-color:#224948 ;
-            color: #FFE7A9;
+            background-color:$color-verde;
+            color:$color-principal;
             border: 1px solid grey;
             border-radius: 5px;
             padding: 10px;

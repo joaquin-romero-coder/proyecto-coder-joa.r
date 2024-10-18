@@ -1,8 +1,9 @@
-/*ESTILOS*/
+@import "../utilities/variables";
+
 
 body{
     background-color:#ebe1c7;
-    font-style: oblique;
+    font-style:oblique;
 }
 
 main{
@@ -26,8 +27,8 @@ main{
 
         div{
             p.texto-central{
-               color: #FFE7A9;
-               background-color: #224948;
+               color: $color-principal;
+               background-color: $color-verde;
                padding: 10px;
                border-radius: 10px;
                margin: 20px;
