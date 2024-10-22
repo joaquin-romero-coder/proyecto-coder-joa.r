@@ -1,3 +1,6 @@
+@import "../utilities/extends";
+@import "../utilities/mixins";
+
 main{
     .cuidado-de-la-piel{
         color: $color-titulos;
@@ -37,135 +40,122 @@ main{
     }
 
     .grid-container-piel{
-        display: grid;
-        grid-template-columns: repeat(3, 450px);
-        grid-template-rows: repeat(4, 250px);
-        grid-template-areas:
-        "item-1 item-2 item-3"
-        "item-1 item-2 item-3"
-        "item-4 item-5 item-6"
-        "item-4 item-5 item-6";
-        justify-content: center;
-        margin: 25px;
-        padding: 15px;
-        gap: 20px;
+     @include grid;
+    
+    .item-1-piel{
+        grid-area: item-1;
 
-        .item-1-piel{
-            grid-area: item-1;
+        img{
+            padding: 10px;
+            margin: 5px;
+            height: 420px;
+            width: 400px;
+        }
 
-            img{
-                padding: 10px;
-                margin: 5px;
-                height: 420px;
-                width: 400px;
-            }
+        p{
+            padding: 10px;
+            margin: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+    
+    .item-2-piel{
+        grid-area: item-2;
 
-            p{
-                padding: 10px;
-                margin: 5px;
-                font-family: Arial, Helvetica, sans-serif;
-            }
+        img{
+            padding: 10px;
+            margin: 5px;
+            height: 420px;
+            width: 400px;
+        }
+
+        p{
+            padding: 10px;
+            margin: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+    
+    .item-3-piel{
+        grid-area: item-3;
+
+        img{
+            padding: 10px;
+            margin: 5px;
+            height: 420px;
+            width: 400px;
+        }
+
+        p{
+            padding: 10px;
+            margin: 5px;
+            font-family: Arial, Helvetica, sans-serif;
         }
         
-        .item-2-piel{
-            grid-area: item-2;
+    }
+    
+    .item-4-piel{
+        grid-area: item-4;
 
-            img{
-                padding: 10px;
-                margin: 5px;
-                height: 420px;
-                width: 400px;
-            }
-
-            p{
-                padding: 10px;
-                margin: 5px;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-        }
-        
-        .item-3-piel{
-            grid-area: item-3;
-
-            img{
-                padding: 10px;
-                margin: 5px;
-                height: 420px;
-                width: 400px;
-            }
-
-            p{
-                padding: 10px;
-                margin: 5px;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            
-        }
-        
-        .item-4-piel{
-            grid-area: item-4;
-
-            img{
-                padding: 10px;
-                margin: 5px;
-                height: 420px;
-                width: 400px;
-            }
-
-            p{
-                padding: 10px;
-                margin: 5px;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-        }
-        
-        .item-5-piel{
-            grid-area: item-5;
-
-            img{
-                padding: 10px;
-                margin: 5px;
-                height: 420px;
-                width: 400px;
-            }
-
-            p{
-                padding: 10px;
-                margin: 5px;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-        }
-        
-        .item-6-piel{
-            grid-area: item-6;
-
-            img{
-                padding: 10px;
-                margin: 5px;
-                height: 420px;
-                width: 400px;
-            }
-
-            p{
-                padding: 10px;
-                margin: 5px;
-                font-family: Arial, Helvetica, sans-serif;
-            }
+        img{
+            padding: 10px;
+            margin: 5px;
+            height: 420px;
+            width: 400px;
         }
 
-        .link-comprar{
-            background-color: #224948;
-            color: #FFE7A9;
-            margin: 10px;
-            padding: 5px;
-            border: 1px solid black;
-            border-radius: 5px;
-            text-align: center;
-            text-decoration: none;
-             }
+        p{
+            padding: 10px;
+            margin: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+    
+    .item-5-piel{
+        grid-area: item-5;
 
+        img{
+            padding: 10px;
+            margin: 5px;
+            height: 420px;
+            width: 400px;
+        }
+
+        p{
+            padding: 10px;
+            margin: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+    
+    .item-6-piel{
+        grid-area: item-6;
+
+        img{
+            padding: 10px;
+            margin: 5px;
+            height: 420px;
+            width: 400px;
+        }
+
+        p{
+            padding: 10px;
+            margin: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+    .link-comprar{
+        background-color: #224948;
+        color: #FFE7A9;
+        margin: 10px;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
     }
 
+    }
+}
 
     
-}

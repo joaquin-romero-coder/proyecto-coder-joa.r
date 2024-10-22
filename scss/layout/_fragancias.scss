@@ -1,146 +1,134 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
 main{
-    
-.fragancias{
-    color:$color-titulos;
-    text-align: center;
-    text-decoration: none;
-    text-shadow: 5px 5px 5px;
-    font-size: 20px;
-    padding-top: 15px;
+  .fragancias{
+      color: $color-titulos;
+      text-align: center;
+      text-decoration: none;
+      text-shadow: 5px 5px 5px;
+      font-size: 20px;
+      padding-top: 15px;
   }
 
-  .grid-container-fragancias{
-    display: grid;
-    grid-template-columns: repeat(3, 450px);
-    grid-template-rows: repeat(4, 250px);
-    grid-template-areas:
-    "item-1 item-2 item-3"
-    "item-1 item-2 item-3"
-    "item-4 item-5 item-6"
-    "item-4 item-5 item-6";
-    justify-content: center;
-    margin: 25px;
-    padding: 15px;
-    gap: 20px;
+}
 
-    .item-1-fragancias{
+.grid-container-fragancias{
+   @include grid;
+
+  .item-1-fragancias{
       grid-area: item-1;
 
       img{
-        padding: 10px;
-        margin: 5px;
-        height: 420px;
-        width: 400px;
-    }
+          padding: 10px;
+          margin: 5px;
+          height: 420px;
+          width: 400px;
+      }
 
       p{
-        padding: 10px;
-        margin: 5px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
+          padding: 10px;
+          margin: 5px;
+          font-family: Arial, Helvetica, sans-serif;
+      }
   }
   
   .item-2-fragancias{
       grid-area: item-2;
 
       img{
-        padding: 10px;
-        margin: 5px;
-        height: 420px;
-        width: 400px;
-    }
+          padding: 10px;
+          margin: 5px;
+          height: 420px;
+          width: 400px;
+      }
 
-    p{
-      padding: 10px;
-      margin: 5px;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
+      p{
+          padding: 10px;
+          margin: 5px;
+          font-family: Arial, Helvetica, sans-serif;
+      }
   }
   
   .item-3-fragancias{
       grid-area: item-3;
 
       img{
-        padding: 10px;
-        margin: 5px;
-        height: 420px;
-        width: 400px;
-    }
+          padding: 10px;
+          margin: 5px;
+          height: 420px;
+          width: 400px;
+      }
 
-    p{
-      padding: 10px;
-      margin: 5px;
-      font-family: Arial, Helvetica, sans-serif;
-   }
-
+      p{
+          padding: 10px;
+          margin: 5px;
+          font-family: Arial, Helvetica, sans-serif;
+      }
   }
   
   .item-4-fragancias{
       grid-area: item-4;
 
       img{
-        padding: 10px;
-        margin: 5px;
-        height: 420px;
-        width: 400px;
-    }
+          padding: 10px;
+          margin: 5px;
+          height: 420px;
+          width: 400px;
+      }
 
-    p{
-      padding: 10px;
-      margin: 5px;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
+      p{
+          padding: 10px;
+          margin: 5px;
+          font-family: Arial, Helvetica, sans-serif;
+      }
   }
   
   .item-5-fragancias{
       grid-area: item-5;
 
       img{
-        padding: 10px;
-        margin: 5px;
-        height: 420px;
-        width: 400px;
-    }
+          padding: 10px;
+          margin: 5px;
+          height: 420px;
+          width: 400px;
+      }
 
-    p{
-      padding: 10px;
-      margin: 5px;
-      font-family: Arial, Helvetica, sans-serif;
-  }
+      p{
+          padding: 10px;
+          margin: 5px;
+          font-family: Arial, Helvetica, sans-serif;
+      }
   }
   
   .item-6-fragancias{
       grid-area: item-6;
 
       img{
-        padding: 10px;
-        margin: 5px;
-        height: 420px;
-        width: 400px;
-    }
+          padding: 10px;
+          margin: 5px;
+          height: 420px;
+          width: 400px;
+      }
 
-    p{
-      padding: 10px;
-      margin: 5px;
-      font-family: Arial, Helvetica, sans-serif;
+      p{
+          padding: 10px;
+          margin: 5px;
+          font-family: Arial, Helvetica, sans-serif;
+      }
   }
+
   
-  }
-
-
-  .link-comprar{
-    background-color: #224948;
-    color: #FFE7A9;
-    margin: 10px;
-    padding: 5px;
-    border: 1px solid black;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-     }
+.link-comprar{
+background-color: #224948;
+color: #FFE7A9;
+margin: 10px;
+padding: 5px;
+border: 1px solid black;
+border-radius: 5px;
+text-align: center;
+text-decoration: none;
 }
-
 }
+    
+

@@ -276,7 +276,8 @@ main .fragancias {
   font-size: 20px;
   padding-top: 15px;
 }
-main .grid-container-fragancias {
+
+.grid-container-fragancias {
   display: grid;
   grid-template-columns: repeat(3, 450px);
   grid-template-rows: repeat(4, 250px);
@@ -286,91 +287,91 @@ main .grid-container-fragancias {
   padding: 15px;
   gap: 20px;
 }
-main .grid-container-fragancias .item-1-fragancias {
+.grid-container-fragancias .item-1-fragancias {
   grid-area: item-1;
 }
-main .grid-container-fragancias .item-1-fragancias img {
+.grid-container-fragancias .item-1-fragancias img {
   padding: 10px;
   margin: 5px;
   height: 420px;
   width: 400px;
 }
-main .grid-container-fragancias .item-1-fragancias p {
+.grid-container-fragancias .item-1-fragancias p {
   padding: 10px;
   margin: 5px;
   font-family: Arial, Helvetica, sans-serif;
 }
-main .grid-container-fragancias .item-2-fragancias {
+.grid-container-fragancias .item-2-fragancias {
   grid-area: item-2;
 }
-main .grid-container-fragancias .item-2-fragancias img {
+.grid-container-fragancias .item-2-fragancias img {
   padding: 10px;
   margin: 5px;
   height: 420px;
   width: 400px;
 }
-main .grid-container-fragancias .item-2-fragancias p {
+.grid-container-fragancias .item-2-fragancias p {
   padding: 10px;
   margin: 5px;
   font-family: Arial, Helvetica, sans-serif;
 }
-main .grid-container-fragancias .item-3-fragancias {
+.grid-container-fragancias .item-3-fragancias {
   grid-area: item-3;
 }
-main .grid-container-fragancias .item-3-fragancias img {
+.grid-container-fragancias .item-3-fragancias img {
   padding: 10px;
   margin: 5px;
   height: 420px;
   width: 400px;
 }
-main .grid-container-fragancias .item-3-fragancias p {
+.grid-container-fragancias .item-3-fragancias p {
   padding: 10px;
   margin: 5px;
   font-family: Arial, Helvetica, sans-serif;
 }
-main .grid-container-fragancias .item-4-fragancias {
+.grid-container-fragancias .item-4-fragancias {
   grid-area: item-4;
 }
-main .grid-container-fragancias .item-4-fragancias img {
+.grid-container-fragancias .item-4-fragancias img {
   padding: 10px;
   margin: 5px;
   height: 420px;
   width: 400px;
 }
-main .grid-container-fragancias .item-4-fragancias p {
+.grid-container-fragancias .item-4-fragancias p {
   padding: 10px;
   margin: 5px;
   font-family: Arial, Helvetica, sans-serif;
 }
-main .grid-container-fragancias .item-5-fragancias {
+.grid-container-fragancias .item-5-fragancias {
   grid-area: item-5;
 }
-main .grid-container-fragancias .item-5-fragancias img {
+.grid-container-fragancias .item-5-fragancias img {
   padding: 10px;
   margin: 5px;
   height: 420px;
   width: 400px;
 }
-main .grid-container-fragancias .item-5-fragancias p {
+.grid-container-fragancias .item-5-fragancias p {
   padding: 10px;
   margin: 5px;
   font-family: Arial, Helvetica, sans-serif;
 }
-main .grid-container-fragancias .item-6-fragancias {
+.grid-container-fragancias .item-6-fragancias {
   grid-area: item-6;
 }
-main .grid-container-fragancias .item-6-fragancias img {
+.grid-container-fragancias .item-6-fragancias img {
   padding: 10px;
   margin: 5px;
   height: 420px;
   width: 400px;
 }
-main .grid-container-fragancias .item-6-fragancias p {
+.grid-container-fragancias .item-6-fragancias p {
   padding: 10px;
   margin: 5px;
   font-family: Arial, Helvetica, sans-serif;
 }
-main .grid-container-fragancias .link-comprar {
+.grid-container-fragancias .link-comprar {
   background-color: #224948;
   color: #FFE7A9;
   margin: 10px;

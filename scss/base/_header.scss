@@ -1,17 +1,16 @@
 /*HEADER*/
+@import "../utilities/variables";
+@import "../utilities/mixins";
 
 header{
      border-bottom: 1px solid black;
      background-color:#DD9184;
 
        section{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          padding: 20px;
+        @include flex;
      
           h1{
-          color: #224948;
+          color: $color-verde;
           text-align: center;
           text-decoration: underline;
           font-size: 35px;
