@@ -1,1 +1,40 @@
 
+@import "../utilities/extends";
+@import "../utilities/mixins";
+@import "../utilities/variables";
+
+
+@media (max-width:1024px){
+header{
+    .boton-busqueda{
+       display: none;
+    }
+
+input{
+   display:none;
+   
+}
+}
+
+main{
+    .container-principal{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .container-imagen{
+            img{
+                width:450px;
+               margin: 25px;
+               border-radius: 10px;
+               border: 1px solid rgb(106, 104, 104);
+            }
+        }
+    }
+
+}
+.grid-container{
+    display:none;
+}
+
+}
