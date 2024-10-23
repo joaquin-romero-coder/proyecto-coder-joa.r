@@ -22,3 +22,11 @@
 
 }
 
+@mixin flex-variables($flex, $justify, $align, $margin, $padding){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+    margin: $margin;
+    padding: $padding;
+
+}
