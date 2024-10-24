@@ -339,10 +339,14 @@ main .cuidado-piel {
   justify-content: center;
 }
 main .cuidado-piel img {
-  width: 35%;
+  width: 45%;
   margin: 15px;
   border: 1px solid black;
   border-radius: 5px;
+  transition: 1s;
+}
+main .cuidado-piel img:hover {
+  transform: rotate(40deg);
 }
 main .texto-informativo li {
   background-color: #224948;
