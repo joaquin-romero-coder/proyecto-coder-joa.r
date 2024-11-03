@@ -13,11 +13,10 @@ main{
     }
 
 
-    .grid-container-maquillajes{
-        @include grid;
+    .container-maquillajes-1{
+        
 
         .item-1-maquillaje{
-            grid-area: item-1;
       
             img{
                 @extend .img;
@@ -52,6 +51,12 @@ main{
               @extend .parrafo;
             }
         }
+
+    }
+
+    .container-maquillajes-2{
+       
+    
         
         .item-4-maquillaje{
             grid-area: item-4;
@@ -90,9 +95,9 @@ main{
         }
     
         
-   .link-comprar{
-    @extend .boton-1;
-     } 
+   
     }
-
+    .link-comprar{
+        @extend .boton-1;
+         } 
 }
