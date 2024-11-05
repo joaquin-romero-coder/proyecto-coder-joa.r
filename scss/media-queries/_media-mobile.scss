@@ -10,6 +10,10 @@ header{
        display: none;
     }
 
+    body{
+        background-color: red;
+    }
+
 input{
    display:none;
    
@@ -34,12 +38,11 @@ main{
 
  }
 
-}
-.grid-container{
-   display: none;
-}
+ .grid-container{
+    display: none;
+ }
 
-main{
+ main{
 
     .container-maquillajes-1{
         flex-direction: column;
@@ -57,7 +60,30 @@ main{
             
         }
     }
+
+    .container-maquillajes-2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 40px;
+        padding: 10px;
+        gap: 75px;
+      
+
+        img{
+            justify-content: center;
+            align-items: center;
+            margin-bottom:30px;
+            gap:40px;
+            
+        }
+    }
 }
+}
+
+
+
+
 
 
 
@@ -65,6 +91,15 @@ main{
     main{
 
     .container-maquillajes-1{
+        display: flex;
+        margin: 40px;
+        padding: 10px;
+        gap: 75px;
+    }
+}
+
+main{
+    .container-maquillajes-2{
         display: flex;
         margin: 40px;
         padding: 10px;
