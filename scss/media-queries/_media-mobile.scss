@@ -42,7 +42,6 @@ main{
     display: none;
  }
 
- main{
 
     .container-maquillajes-1{
         flex-direction: column;
@@ -51,15 +50,16 @@ main{
         margin: 40px;
         padding: 10px;
         gap: 75px;
-
-        img{
-            justify-content: center;
-            align-items: center;
-            margin-bottom:30px;
-            gap:40px;
-            
+           
+            img{
+                justify-content: center;
+                align-items: center;
+                margin-bottom:30px;
+                gap:40px;
+                
         }
     }
+
 
     .container-maquillajes-2{
         flex-direction: column;
@@ -79,8 +79,6 @@ main{
         }
     }
 }
-}
-
 
 
 

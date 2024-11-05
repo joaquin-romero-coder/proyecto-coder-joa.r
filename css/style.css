@@ -428,7 +428,7 @@ main .sobre-nosotros {
   .grid-container {
     display: none;
   }
-  main .container-maquillajes-1 {
+  .container-maquillajes-1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -436,13 +436,13 @@ main .sobre-nosotros {
     padding: 10px;
     gap: 75px;
   }
-  main .container-maquillajes-1 img {
+  .container-maquillajes-1 img {
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
     gap: 40px;
   }
-  main .container-maquillajes-2 {
+  .container-maquillajes-2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -450,7 +450,7 @@ main .sobre-nosotros {
     padding: 10px;
     gap: 75px;
   }
-  main .container-maquillajes-2 img {
+  .container-maquillajes-2 img {
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
