@@ -4,14 +4,11 @@
 @import "../utilities/variables";
 
 
-@media (max-width:1024px){
+@media (max-width:768px){
 header{
+
     .boton-busqueda{
        display: none;
-    }
-
-    body{
-        background-color: red;
     }
 
 input{
@@ -28,7 +25,7 @@ main{
 
         .container-imagen{
             img{
-                width:450px;
+                width:350px;
                margin: 25px;
                border-radius: 10px;
                border: 1px solid rgb(106, 104, 104);
@@ -52,6 +49,7 @@ main{
         gap: 75px;
            
             img{
+               
                 justify-content: center;
                 align-items: center;
                 margin-bottom:30px;
@@ -85,7 +83,7 @@ main{
 
 
 
-@media (min-width:1025px){
+@media (min-width:769px){
     main{
 
     .container-maquillajes-1{

@@ -52,15 +52,15 @@ header section h1 {
   font-size: 35px;
   margin-right: 20px;
 }
-header section h1 .boton-busqueda {
+header section .boton-busqueda {
   justify-items: center;
   margin: 5px;
 }
-header section input {
+header input {
   border-radius: 7px;
   background-color: #ebe1c7;
 }
-header section input:focus {
+header input:focus {
   color: #FFE7A9;
   background-color: #224948;
 }
@@ -404,12 +404,9 @@ main .sobre-nosotros {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   header .boton-busqueda {
     display: none;
-  }
-  header body {
-    background-color: red;
   }
   header input {
     display: none;
@@ -420,7 +417,7 @@ main .sobre-nosotros {
     align-items: center;
   }
   main .container-principal .container-imagen img {
-    width: 450px;
+    width: 350px;
     margin: 25px;
     border-radius: 10px;
     border: 1px solid rgb(106, 104, 104);
@@ -457,7 +454,7 @@ main .sobre-nosotros {
     gap: 40px;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 769px) {
   main .container-maquillajes-1 {
     display: flex;
     margin: 40px;
