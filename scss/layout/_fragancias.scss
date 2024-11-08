@@ -14,11 +14,9 @@ main{
 
 
 
-.grid-container-fragancias{
-   @include grid;
+.container-fragancias-1{
 
   .item-1-fragancias{
-      grid-area: item-1;
 
       img{
           @extend .img;
@@ -30,7 +28,6 @@ main{
   }
   
   .item-2-fragancias{
-      grid-area: item-2;
 
       img{
          @extend.img;
@@ -42,7 +39,7 @@ main{
   }
   
   .item-3-fragancias{
-      grid-area: item-3;
+      
 
       img{
         @extend .img;
@@ -53,9 +50,13 @@ main{
         @extend .parrafo;
       }
   }
+}
+
+
+  .container-fragancias-2{
   
   .item-4-fragancias{
-      grid-area: item-4;
+      
 
       img{
          @extend .img;
@@ -67,7 +68,6 @@ main{
   }
   
   .item-5-fragancias{
-      grid-area: item-5;
 
       img{
          @extend .img;
@@ -79,7 +79,6 @@ main{
   }
   
   .item-6-fragancias{
-      grid-area: item-6;
 
       img{
           @extend .img;
@@ -89,11 +88,12 @@ main{
           @extend .parrafo;
       }
   }
+  
+}
 
   
 .link-comprar{
     @extend .boton-1;
   }
  }
-    
-}
+

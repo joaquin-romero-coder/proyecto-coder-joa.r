@@ -48,11 +48,9 @@ main{
     }
     
 
-    .grid-container-piel{
-     @include grid;
-    
+    .container-piel-1{
+     
      .item-1-piel{
-        grid-area: item-1;
   
         img{
             @extend .img;
@@ -64,7 +62,6 @@ main{
     }
     
     .item-2-piel{
-        grid-area: item-2;
   
         img{
            @extend.img;
@@ -76,7 +73,6 @@ main{
     }
     
     .item-3-piel{
-        grid-area: item-3;
   
         img{
           @extend .img;
@@ -87,9 +83,11 @@ main{
           @extend .parrafo;
         }
     }
+}
     
+    .container-piel-2{
+        
     .item-4-piel{
-        grid-area: item-4;
   
         img{
            @extend .img;
@@ -101,7 +99,6 @@ main{
     }
     
     .item-5-piel{
-        grid-area: item-5;
   
         img{
            @extend .img;
@@ -113,7 +110,6 @@ main{
     }
     
     .item-6-piel{
-        grid-area: item-6;
   
         img{
             @extend .img;
@@ -123,11 +119,12 @@ main{
             @extend .parrafo;
         }
     }
+}
+
     .link-comprar{
         @extend .boton-1;
     }
 
     }
-}
 
 

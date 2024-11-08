@@ -11,7 +11,7 @@ html {
 }
 
 /*HEADER*/
-.boton-1, main .grid-container-piel .link-comprar, main .grid-container-fragancias .link-comprar, main .link-comprar {
+.boton-1, main .link-comprar {
   background-color: #224948;
   color: #FFE7A9;
   margin: 10px;
@@ -22,14 +22,21 @@ html {
   text-decoration: none;
 }
 
-.img, main .grid-container-piel .item-6-piel img, main .grid-container-piel .item-5-piel img, main .grid-container-piel .item-4-piel img, main .grid-container-piel .item-3-piel img, main .grid-container-piel .item-2-piel img, main .grid-container-piel .item-1-piel img, main .grid-container-fragancias .item-6-fragancias img, main .grid-container-fragancias .item-5-fragancias img, main .grid-container-fragancias .item-4-fragancias img, main .grid-container-fragancias .item-3-fragancias img, main .grid-container-fragancias .item-2-fragancias img, main .grid-container-fragancias .item-1-fragancias img, main .container-maquillajes-2 .item-6-maquillaje img, main .container-maquillajes-2 .item-5-maquillaje img, main .container-maquillajes-2 .item-4-maquillaje img, main .container-maquillajes-1 .item-3-maquillaje img, main .container-maquillajes-1 .item-2-maquillaje img, main .container-maquillajes-1 .item-1-maquillaje img {
+.img, main .container-piel-2 .item-6-piel img, main .container-piel-2 .item-5-piel img, main .container-piel-2 .item-4-piel img, main .container-piel-1 .item-3-piel img, main .container-piel-1 .item-2-piel img, main .container-piel-1 .item-1-piel img, main .container-fragancias-2 .item-6-fragancias img, main .container-fragancias-2 .item-5-fragancias img, main .container-fragancias-2 .item-4-fragancias img, main .container-fragancias-1 .item-3-fragancias img, main .container-fragancias-1 .item-2-fragancias img, main .container-fragancias-1 .item-1-fragancias img, main .container-maquillajes-2 .item-6-maquillaje img, main .container-maquillajes-2 .item-5-maquillaje img, main .container-maquillajes-2 .item-4-maquillaje img, main .container-maquillajes-1 .item-3-maquillaje img, main .container-maquillajes-1 .item-2-maquillaje img, main .container-maquillajes-1 .item-1-maquillaje img {
   padding: 10px;
   margin: 5px;
   height: 420px;
   width: 400px;
 }
 
-.parrafo, main .grid-container-piel .item-6-piel p, main .grid-container-piel .item-5-piel p, main .grid-container-piel .item-4-piel p, main .grid-container-piel .item-3-piel p, main .grid-container-piel .item-2-piel p, main .grid-container-piel .item-1-piel p, main .grid-container-fragancias .item-6-fragancias p, main .grid-container-fragancias .item-5-fragancias p, main .grid-container-fragancias .item-4-fragancias p, main .grid-container-fragancias .item-3-fragancias p, main .grid-container-fragancias .item-2-fragancias p, main .grid-container-fragancias .item-1-fragancias p, main .container-maquillajes-2 .item-6-maquillaje p, main .container-maquillajes-2 .item-5-maquillaje p, main .container-maquillajes-2 .item-4-maquillaje p, main .container-maquillajes-1 .item-3-maquillaje p, main .container-maquillajes-1 .item-2-maquillaje p, main .container-maquillajes-1 .item-1-maquillaje p {
+.img-2 {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 40px;
+}
+
+.parrafo, main .container-piel-2 .item-6-piel p, main .container-piel-2 .item-5-piel p, main .container-piel-2 .item-4-piel p, main .container-piel-1 .item-3-piel p, main .container-piel-1 .item-2-piel p, main .container-piel-1 .item-1-piel p, main .container-fragancias-2 .item-6-fragancias p, main .container-fragancias-2 .item-5-fragancias p, main .container-fragancias-2 .item-4-fragancias p, main .container-fragancias-1 .item-3-fragancias p, main .container-fragancias-1 .item-2-fragancias p, main .container-fragancias-1 .item-1-fragancias p, main .container-maquillajes-2 .item-6-maquillaje p, main .container-maquillajes-2 .item-5-maquillaje p, main .container-maquillajes-2 .item-4-maquillaje p, main .container-maquillajes-1 .item-3-maquillaje p, main .container-maquillajes-1 .item-2-maquillaje p, main .container-maquillajes-1 .item-1-maquillaje p {
   padding: 10px;
   margin: 5px;
   font-family: Arial, Helvetica, sans-serif;
@@ -179,7 +186,7 @@ footer div {
   color: rgb(227, 237, 237);
 }
 
-.boton-1, main .grid-container-piel .link-comprar, main .grid-container-fragancias .link-comprar, main .link-comprar {
+.boton-1, main .link-comprar {
   background-color: #224948;
   color: #FFE7A9;
   margin: 10px;
@@ -190,14 +197,21 @@ footer div {
   text-decoration: none;
 }
 
-.img, main .grid-container-piel .item-6-piel img, main .grid-container-piel .item-5-piel img, main .grid-container-piel .item-4-piel img, main .grid-container-piel .item-3-piel img, main .grid-container-piel .item-2-piel img, main .grid-container-piel .item-1-piel img, main .grid-container-fragancias .item-6-fragancias img, main .grid-container-fragancias .item-5-fragancias img, main .grid-container-fragancias .item-4-fragancias img, main .grid-container-fragancias .item-3-fragancias img, main .grid-container-fragancias .item-2-fragancias img, main .grid-container-fragancias .item-1-fragancias img, main .container-maquillajes-2 .item-6-maquillaje img, main .container-maquillajes-2 .item-5-maquillaje img, main .container-maquillajes-2 .item-4-maquillaje img, main .container-maquillajes-1 .item-3-maquillaje img, main .container-maquillajes-1 .item-2-maquillaje img, main .container-maquillajes-1 .item-1-maquillaje img {
+.img, main .container-piel-2 .item-6-piel img, main .container-piel-2 .item-5-piel img, main .container-piel-2 .item-4-piel img, main .container-piel-1 .item-3-piel img, main .container-piel-1 .item-2-piel img, main .container-piel-1 .item-1-piel img, main .container-fragancias-2 .item-6-fragancias img, main .container-fragancias-2 .item-5-fragancias img, main .container-fragancias-2 .item-4-fragancias img, main .container-fragancias-1 .item-3-fragancias img, main .container-fragancias-1 .item-2-fragancias img, main .container-fragancias-1 .item-1-fragancias img, main .container-maquillajes-2 .item-6-maquillaje img, main .container-maquillajes-2 .item-5-maquillaje img, main .container-maquillajes-2 .item-4-maquillaje img, main .container-maquillajes-1 .item-3-maquillaje img, main .container-maquillajes-1 .item-2-maquillaje img, main .container-maquillajes-1 .item-1-maquillaje img {
   padding: 10px;
   margin: 5px;
   height: 420px;
   width: 400px;
 }
 
-.parrafo, main .grid-container-piel .item-6-piel p, main .grid-container-piel .item-5-piel p, main .grid-container-piel .item-4-piel p, main .grid-container-piel .item-3-piel p, main .grid-container-piel .item-2-piel p, main .grid-container-piel .item-1-piel p, main .grid-container-fragancias .item-6-fragancias p, main .grid-container-fragancias .item-5-fragancias p, main .grid-container-fragancias .item-4-fragancias p, main .grid-container-fragancias .item-3-fragancias p, main .grid-container-fragancias .item-2-fragancias p, main .grid-container-fragancias .item-1-fragancias p, main .container-maquillajes-2 .item-6-maquillaje p, main .container-maquillajes-2 .item-5-maquillaje p, main .container-maquillajes-2 .item-4-maquillaje p, main .container-maquillajes-1 .item-3-maquillaje p, main .container-maquillajes-1 .item-2-maquillaje p, main .container-maquillajes-1 .item-1-maquillaje p {
+.img-2 {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 40px;
+}
+
+.parrafo, main .container-piel-2 .item-6-piel p, main .container-piel-2 .item-5-piel p, main .container-piel-2 .item-4-piel p, main .container-piel-1 .item-3-piel p, main .container-piel-1 .item-2-piel p, main .container-piel-1 .item-1-piel p, main .container-fragancias-2 .item-6-fragancias p, main .container-fragancias-2 .item-5-fragancias p, main .container-fragancias-2 .item-4-fragancias p, main .container-fragancias-1 .item-3-fragancias p, main .container-fragancias-1 .item-2-fragancias p, main .container-fragancias-1 .item-1-fragancias p, main .container-maquillajes-2 .item-6-maquillaje p, main .container-maquillajes-2 .item-5-maquillaje p, main .container-maquillajes-2 .item-4-maquillaje p, main .container-maquillajes-1 .item-3-maquillaje p, main .container-maquillajes-1 .item-2-maquillaje p, main .container-maquillajes-1 .item-1-maquillaje p {
   padding: 10px;
   margin: 5px;
   font-family: Arial, Helvetica, sans-serif;
@@ -226,7 +240,7 @@ main .container-maquillajes-2 .item-5-maquillaje {
 main .container-maquillajes-2 .item-6-maquillaje {
   grid-area: item-6;
 }
-.boton-1, main .grid-container-piel .link-comprar, main .grid-container-fragancias .link-comprar, main .link-comprar {
+.boton-1, main .link-comprar {
   background-color: #224948;
   color: #FFE7A9;
   margin: 10px;
@@ -237,14 +251,21 @@ main .container-maquillajes-2 .item-6-maquillaje {
   text-decoration: none;
 }
 
-.img, main .grid-container-piel .item-6-piel img, main .grid-container-piel .item-5-piel img, main .grid-container-piel .item-4-piel img, main .grid-container-piel .item-3-piel img, main .grid-container-piel .item-2-piel img, main .grid-container-piel .item-1-piel img, main .grid-container-fragancias .item-6-fragancias img, main .grid-container-fragancias .item-5-fragancias img, main .grid-container-fragancias .item-4-fragancias img, main .grid-container-fragancias .item-3-fragancias img, main .grid-container-fragancias .item-2-fragancias img, main .grid-container-fragancias .item-1-fragancias img, main .container-maquillajes-1 .item-1-maquillaje img, main .container-maquillajes-1 .item-2-maquillaje img, main .container-maquillajes-1 .item-3-maquillaje img, main .container-maquillajes-2 .item-4-maquillaje img, main .container-maquillajes-2 .item-5-maquillaje img, main .container-maquillajes-2 .item-6-maquillaje img {
+.img, main .container-piel-2 .item-6-piel img, main .container-piel-2 .item-5-piel img, main .container-piel-2 .item-4-piel img, main .container-piel-1 .item-3-piel img, main .container-piel-1 .item-2-piel img, main .container-piel-1 .item-1-piel img, main .container-fragancias-2 .item-6-fragancias img, main .container-fragancias-2 .item-5-fragancias img, main .container-fragancias-2 .item-4-fragancias img, main .container-fragancias-1 .item-3-fragancias img, main .container-fragancias-1 .item-2-fragancias img, main .container-fragancias-1 .item-1-fragancias img, main .container-maquillajes-1 .item-1-maquillaje img, main .container-maquillajes-1 .item-2-maquillaje img, main .container-maquillajes-1 .item-3-maquillaje img, main .container-maquillajes-2 .item-4-maquillaje img, main .container-maquillajes-2 .item-5-maquillaje img, main .container-maquillajes-2 .item-6-maquillaje img {
   padding: 10px;
   margin: 5px;
   height: 420px;
   width: 400px;
 }
 
-.parrafo, main .grid-container-piel .item-6-piel p, main .grid-container-piel .item-5-piel p, main .grid-container-piel .item-4-piel p, main .grid-container-piel .item-3-piel p, main .grid-container-piel .item-2-piel p, main .grid-container-piel .item-1-piel p, main .grid-container-fragancias .item-6-fragancias p, main .grid-container-fragancias .item-5-fragancias p, main .grid-container-fragancias .item-4-fragancias p, main .grid-container-fragancias .item-3-fragancias p, main .grid-container-fragancias .item-2-fragancias p, main .grid-container-fragancias .item-1-fragancias p, main .container-maquillajes-1 .item-1-maquillaje p, main .container-maquillajes-1 .item-2-maquillaje p, main .container-maquillajes-1 .item-3-maquillaje p, main .container-maquillajes-2 .item-4-maquillaje p, main .container-maquillajes-2 .item-5-maquillaje p, main .container-maquillajes-2 .item-6-maquillaje p {
+.img-2 {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 40px;
+}
+
+.parrafo, main .container-piel-2 .item-6-piel p, main .container-piel-2 .item-5-piel p, main .container-piel-2 .item-4-piel p, main .container-piel-1 .item-3-piel p, main .container-piel-1 .item-2-piel p, main .container-piel-1 .item-1-piel p, main .container-fragancias-2 .item-6-fragancias p, main .container-fragancias-2 .item-5-fragancias p, main .container-fragancias-2 .item-4-fragancias p, main .container-fragancias-1 .item-3-fragancias p, main .container-fragancias-1 .item-2-fragancias p, main .container-fragancias-1 .item-1-fragancias p, main .container-maquillajes-1 .item-1-maquillaje p, main .container-maquillajes-1 .item-2-maquillaje p, main .container-maquillajes-1 .item-3-maquillaje p, main .container-maquillajes-2 .item-4-maquillaje p, main .container-maquillajes-2 .item-5-maquillaje p, main .container-maquillajes-2 .item-6-maquillaje p {
   padding: 10px;
   margin: 5px;
   font-family: Arial, Helvetica, sans-serif;
@@ -258,35 +279,7 @@ main .fragancias {
   font-size: 20px;
   padding-top: 15px;
 }
-main .grid-container-fragancias {
-  display: grid;
-  grid-template-columns: repeat(3, 450px);
-  grid-template-rows: repeat(4, 250px);
-  grid-template-areas: "item-1 item-2 item-3" "item-1 item-2 item-3" "item-4 item-5 item-6" "item-4 item-5 item-6";
-  justify-content: center;
-  margin: 25px;
-  padding: 15px;
-  gap: 20px;
-}
-main .grid-container-fragancias .item-1-fragancias {
-  grid-area: item-1;
-}
-main .grid-container-fragancias .item-2-fragancias {
-  grid-area: item-2;
-}
-main .grid-container-fragancias .item-3-fragancias {
-  grid-area: item-3;
-}
-main .grid-container-fragancias .item-4-fragancias {
-  grid-area: item-4;
-}
-main .grid-container-fragancias .item-5-fragancias {
-  grid-area: item-5;
-}
-main .grid-container-fragancias .item-6-fragancias {
-  grid-area: item-6;
-}
-.boton-1, main .grid-container-piel .link-comprar, main .link-comprar, main .grid-container-fragancias .link-comprar {
+.boton-1, main .link-comprar {
   background-color: #224948;
   color: #FFE7A9;
   margin: 10px;
@@ -297,14 +290,21 @@ main .grid-container-fragancias .item-6-fragancias {
   text-decoration: none;
 }
 
-.img, main .grid-container-piel .item-6-piel img, main .grid-container-piel .item-5-piel img, main .grid-container-piel .item-4-piel img, main .grid-container-piel .item-3-piel img, main .grid-container-piel .item-2-piel img, main .grid-container-piel .item-1-piel img, main .container-maquillajes-1 .item-1-maquillaje img, main .container-maquillajes-1 .item-2-maquillaje img, main .container-maquillajes-1 .item-3-maquillaje img, main .container-maquillajes-2 .item-4-maquillaje img, main .container-maquillajes-2 .item-5-maquillaje img, main .container-maquillajes-2 .item-6-maquillaje img, main .grid-container-fragancias .item-1-fragancias img, main .grid-container-fragancias .item-2-fragancias img, main .grid-container-fragancias .item-3-fragancias img, main .grid-container-fragancias .item-4-fragancias img, main .grid-container-fragancias .item-5-fragancias img, main .grid-container-fragancias .item-6-fragancias img {
+.img, main .container-piel-2 .item-6-piel img, main .container-piel-2 .item-5-piel img, main .container-piel-2 .item-4-piel img, main .container-piel-1 .item-3-piel img, main .container-piel-1 .item-2-piel img, main .container-piel-1 .item-1-piel img, main .container-maquillajes-1 .item-1-maquillaje img, main .container-maquillajes-1 .item-2-maquillaje img, main .container-maquillajes-1 .item-3-maquillaje img, main .container-maquillajes-2 .item-4-maquillaje img, main .container-maquillajes-2 .item-5-maquillaje img, main .container-maquillajes-2 .item-6-maquillaje img, main .container-fragancias-1 .item-1-fragancias img, main .container-fragancias-1 .item-2-fragancias img, main .container-fragancias-1 .item-3-fragancias img, main .container-fragancias-2 .item-4-fragancias img, main .container-fragancias-2 .item-5-fragancias img, main .container-fragancias-2 .item-6-fragancias img {
   padding: 10px;
   margin: 5px;
   height: 420px;
   width: 400px;
 }
 
-.parrafo, main .grid-container-piel .item-6-piel p, main .grid-container-piel .item-5-piel p, main .grid-container-piel .item-4-piel p, main .grid-container-piel .item-3-piel p, main .grid-container-piel .item-2-piel p, main .grid-container-piel .item-1-piel p, main .container-maquillajes-1 .item-1-maquillaje p, main .container-maquillajes-1 .item-2-maquillaje p, main .container-maquillajes-1 .item-3-maquillaje p, main .container-maquillajes-2 .item-4-maquillaje p, main .container-maquillajes-2 .item-5-maquillaje p, main .container-maquillajes-2 .item-6-maquillaje p, main .grid-container-fragancias .item-1-fragancias p, main .grid-container-fragancias .item-2-fragancias p, main .grid-container-fragancias .item-3-fragancias p, main .grid-container-fragancias .item-4-fragancias p, main .grid-container-fragancias .item-5-fragancias p, main .grid-container-fragancias .item-6-fragancias p {
+.img-2 {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 40px;
+}
+
+.parrafo, main .container-piel-2 .item-6-piel p, main .container-piel-2 .item-5-piel p, main .container-piel-2 .item-4-piel p, main .container-piel-1 .item-3-piel p, main .container-piel-1 .item-2-piel p, main .container-piel-1 .item-1-piel p, main .container-maquillajes-1 .item-1-maquillaje p, main .container-maquillajes-1 .item-2-maquillaje p, main .container-maquillajes-1 .item-3-maquillaje p, main .container-maquillajes-2 .item-4-maquillaje p, main .container-maquillajes-2 .item-5-maquillaje p, main .container-maquillajes-2 .item-6-maquillaje p, main .container-fragancias-1 .item-1-fragancias p, main .container-fragancias-1 .item-2-fragancias p, main .container-fragancias-1 .item-3-fragancias p, main .container-fragancias-2 .item-4-fragancias p, main .container-fragancias-2 .item-5-fragancias p, main .container-fragancias-2 .item-6-fragancias p {
   padding: 10px;
   margin: 5px;
   font-family: Arial, Helvetica, sans-serif;
@@ -343,34 +343,6 @@ main .texto-informativo li {
   padding: 10px;
   margin: 10px;
 }
-main .grid-container-piel {
-  display: grid;
-  grid-template-columns: repeat(3, 450px);
-  grid-template-rows: repeat(4, 250px);
-  grid-template-areas: "item-1 item-2 item-3" "item-1 item-2 item-3" "item-4 item-5 item-6" "item-4 item-5 item-6";
-  justify-content: center;
-  margin: 25px;
-  padding: 15px;
-  gap: 20px;
-}
-main .grid-container-piel .item-1-piel {
-  grid-area: item-1;
-}
-main .grid-container-piel .item-2-piel {
-  grid-area: item-2;
-}
-main .grid-container-piel .item-3-piel {
-  grid-area: item-3;
-}
-main .grid-container-piel .item-4-piel {
-  grid-area: item-4;
-}
-main .grid-container-piel .item-5-piel {
-  grid-area: item-5;
-}
-main .grid-container-piel .item-6-piel {
-  grid-area: item-6;
-}
 main .sobre-nosotros {
   color: #DD9184;
   text-align: center;
@@ -380,7 +352,7 @@ main .sobre-nosotros {
   padding-top: 15px;
 }
 
-.boton-1, main .link-comprar, main .grid-container-fragancias .link-comprar, main .grid-container-piel .link-comprar {
+.boton-1, main .link-comprar {
   background-color: #224948;
   color: #FFE7A9;
   margin: 10px;
@@ -391,20 +363,27 @@ main .sobre-nosotros {
   text-decoration: none;
 }
 
-.img, main .container-maquillajes-1 .item-1-maquillaje img, main .container-maquillajes-1 .item-2-maquillaje img, main .container-maquillajes-1 .item-3-maquillaje img, main .container-maquillajes-2 .item-4-maquillaje img, main .container-maquillajes-2 .item-5-maquillaje img, main .container-maquillajes-2 .item-6-maquillaje img, main .grid-container-fragancias .item-1-fragancias img, main .grid-container-fragancias .item-2-fragancias img, main .grid-container-fragancias .item-3-fragancias img, main .grid-container-fragancias .item-4-fragancias img, main .grid-container-fragancias .item-5-fragancias img, main .grid-container-fragancias .item-6-fragancias img, main .grid-container-piel .item-1-piel img, main .grid-container-piel .item-2-piel img, main .grid-container-piel .item-3-piel img, main .grid-container-piel .item-4-piel img, main .grid-container-piel .item-5-piel img, main .grid-container-piel .item-6-piel img {
+.img, main .container-maquillajes-1 .item-1-maquillaje img, main .container-maquillajes-1 .item-2-maquillaje img, main .container-maquillajes-1 .item-3-maquillaje img, main .container-maquillajes-2 .item-4-maquillaje img, main .container-maquillajes-2 .item-5-maquillaje img, main .container-maquillajes-2 .item-6-maquillaje img, main .container-fragancias-1 .item-1-fragancias img, main .container-fragancias-1 .item-2-fragancias img, main .container-fragancias-1 .item-3-fragancias img, main .container-fragancias-2 .item-4-fragancias img, main .container-fragancias-2 .item-5-fragancias img, main .container-fragancias-2 .item-6-fragancias img, main .container-piel-1 .item-1-piel img, main .container-piel-1 .item-2-piel img, main .container-piel-1 .item-3-piel img, main .container-piel-2 .item-4-piel img, main .container-piel-2 .item-5-piel img, main .container-piel-2 .item-6-piel img {
   padding: 10px;
   margin: 5px;
   height: 420px;
   width: 400px;
 }
 
-.parrafo, main .container-maquillajes-1 .item-1-maquillaje p, main .container-maquillajes-1 .item-2-maquillaje p, main .container-maquillajes-1 .item-3-maquillaje p, main .container-maquillajes-2 .item-4-maquillaje p, main .container-maquillajes-2 .item-5-maquillaje p, main .container-maquillajes-2 .item-6-maquillaje p, main .grid-container-fragancias .item-1-fragancias p, main .grid-container-fragancias .item-2-fragancias p, main .grid-container-fragancias .item-3-fragancias p, main .grid-container-fragancias .item-4-fragancias p, main .grid-container-fragancias .item-5-fragancias p, main .grid-container-fragancias .item-6-fragancias p, main .grid-container-piel .item-1-piel p, main .grid-container-piel .item-2-piel p, main .grid-container-piel .item-3-piel p, main .grid-container-piel .item-4-piel p, main .grid-container-piel .item-5-piel p, main .grid-container-piel .item-6-piel p {
+.img-2 {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 40px;
+}
+
+.parrafo, main .container-maquillajes-1 .item-1-maquillaje p, main .container-maquillajes-1 .item-2-maquillaje p, main .container-maquillajes-1 .item-3-maquillaje p, main .container-maquillajes-2 .item-4-maquillaje p, main .container-maquillajes-2 .item-5-maquillaje p, main .container-maquillajes-2 .item-6-maquillaje p, main .container-fragancias-1 .item-1-fragancias p, main .container-fragancias-1 .item-2-fragancias p, main .container-fragancias-1 .item-3-fragancias p, main .container-fragancias-2 .item-4-fragancias p, main .container-fragancias-2 .item-5-fragancias p, main .container-fragancias-2 .item-6-fragancias p, main .container-piel-1 .item-1-piel p, main .container-piel-1 .item-2-piel p, main .container-piel-1 .item-3-piel p, main .container-piel-2 .item-4-piel p, main .container-piel-2 .item-5-piel p, main .container-piel-2 .item-6-piel p {
   padding: 10px;
   margin: 5px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   header .boton-busqueda {
     display: none;
   }
@@ -425,7 +404,7 @@ main .sobre-nosotros {
   .grid-container {
     display: none;
   }
-  .container-maquillajes-1 {
+  main .container-maquillajes-1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -433,13 +412,13 @@ main .sobre-nosotros {
     padding: 10px;
     gap: 75px;
   }
-  .container-maquillajes-1 img {
+  main .container-maquillajes-1 img {
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
     gap: 40px;
   }
-  .container-maquillajes-2 {
+  main .container-maquillajes-2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -447,28 +426,120 @@ main .sobre-nosotros {
     padding: 10px;
     gap: 75px;
   }
-  .container-maquillajes-2 img {
+  main .container-maquillajes-2 img {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 40px;
+  }
+  main .container-fragancias-1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 10px;
+    gap: 75px;
+  }
+  main .container-fragancias-1 img {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 40px;
+  }
+  main .container-fragancias-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 10px;
+    gap: 75px;
+  }
+  main .container-fragancias-2 img {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 40px;
+  }
+  main .container-piel-1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 10px;
+    gap: 75px;
+  }
+  main .container-piel-1 img {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 40px;
+  }
+  main .container-piel-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 10px;
+    gap: 75px;
+  }
+  main .container-piel-2 img {
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
     gap: 40px;
   }
 }
-@media (min-width: 769px) {
+@media (min-width: 1025px) {
   main .container-maquillajes-1 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 40px;
     padding: 10px;
     gap: 75px;
   }
   main .container-maquillajes-2 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 10px;
+    gap: 75px;
+  }
+  main .container-fragancias-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 10px;
+    gap: 75px;
+  }
+  main .container-fragancias-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 10px;
+    gap: 75px;
+  }
+  main .container-piel-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 10px;
+    gap: 75px;
+  }
+  main .container-piel-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 40px;
     padding: 10px;
     gap: 75px;
   }
 }
-.boton-1, main .link-comprar, main .grid-container-fragancias .link-comprar, main .grid-container-piel .link-comprar {
+.boton-1, main .link-comprar {
   background-color: #224948;
   color: #FFE7A9;
   margin: 10px;
@@ -479,14 +550,21 @@ main .sobre-nosotros {
   text-decoration: none;
 }
 
-.img, main .container-maquillajes-1 .item-1-maquillaje img, main .container-maquillajes-1 .item-2-maquillaje img, main .container-maquillajes-1 .item-3-maquillaje img, main .container-maquillajes-2 .item-4-maquillaje img, main .container-maquillajes-2 .item-5-maquillaje img, main .container-maquillajes-2 .item-6-maquillaje img, main .grid-container-fragancias .item-1-fragancias img, main .grid-container-fragancias .item-2-fragancias img, main .grid-container-fragancias .item-3-fragancias img, main .grid-container-fragancias .item-4-fragancias img, main .grid-container-fragancias .item-5-fragancias img, main .grid-container-fragancias .item-6-fragancias img, main .grid-container-piel .item-1-piel img, main .grid-container-piel .item-2-piel img, main .grid-container-piel .item-3-piel img, main .grid-container-piel .item-4-piel img, main .grid-container-piel .item-5-piel img, main .grid-container-piel .item-6-piel img {
+.img, main .container-maquillajes-1 .item-1-maquillaje img, main .container-maquillajes-1 .item-2-maquillaje img, main .container-maquillajes-1 .item-3-maquillaje img, main .container-maquillajes-2 .item-4-maquillaje img, main .container-maquillajes-2 .item-5-maquillaje img, main .container-maquillajes-2 .item-6-maquillaje img, main .container-fragancias-1 .item-1-fragancias img, main .container-fragancias-1 .item-2-fragancias img, main .container-fragancias-1 .item-3-fragancias img, main .container-fragancias-2 .item-4-fragancias img, main .container-fragancias-2 .item-5-fragancias img, main .container-fragancias-2 .item-6-fragancias img, main .container-piel-1 .item-1-piel img, main .container-piel-1 .item-2-piel img, main .container-piel-1 .item-3-piel img, main .container-piel-2 .item-4-piel img, main .container-piel-2 .item-5-piel img, main .container-piel-2 .item-6-piel img {
   padding: 10px;
   margin: 5px;
   height: 420px;
   width: 400px;
 }
 
-.parrafo, main .container-maquillajes-1 .item-1-maquillaje p, main .container-maquillajes-1 .item-2-maquillaje p, main .container-maquillajes-1 .item-3-maquillaje p, main .container-maquillajes-2 .item-4-maquillaje p, main .container-maquillajes-2 .item-5-maquillaje p, main .container-maquillajes-2 .item-6-maquillaje p, main .grid-container-fragancias .item-1-fragancias p, main .grid-container-fragancias .item-2-fragancias p, main .grid-container-fragancias .item-3-fragancias p, main .grid-container-fragancias .item-4-fragancias p, main .grid-container-fragancias .item-5-fragancias p, main .grid-container-fragancias .item-6-fragancias p, main .grid-container-piel .item-1-piel p, main .grid-container-piel .item-2-piel p, main .grid-container-piel .item-3-piel p, main .grid-container-piel .item-4-piel p, main .grid-container-piel .item-5-piel p, main .grid-container-piel .item-6-piel p {
+.img-2 {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 40px;
+}
+
+.parrafo, main .container-maquillajes-1 .item-1-maquillaje p, main .container-maquillajes-1 .item-2-maquillaje p, main .container-maquillajes-1 .item-3-maquillaje p, main .container-maquillajes-2 .item-4-maquillaje p, main .container-maquillajes-2 .item-5-maquillaje p, main .container-maquillajes-2 .item-6-maquillaje p, main .container-fragancias-1 .item-1-fragancias p, main .container-fragancias-1 .item-2-fragancias p, main .container-fragancias-1 .item-3-fragancias p, main .container-fragancias-2 .item-4-fragancias p, main .container-fragancias-2 .item-5-fragancias p, main .container-fragancias-2 .item-6-fragancias p, main .container-piel-1 .item-1-piel p, main .container-piel-1 .item-2-piel p, main .container-piel-1 .item-3-piel p, main .container-piel-2 .item-4-piel p, main .container-piel-2 .item-5-piel p, main .container-piel-2 .item-6-piel p {
   padding: 10px;
   margin: 5px;
   font-family: Arial, Helvetica, sans-serif;
