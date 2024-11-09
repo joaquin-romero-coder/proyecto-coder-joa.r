@@ -9,3 +9,29 @@ main{
     }
     
 }
+
+main{
+    section{
+        .foto-info-1{
+            display: flex;
+            justify-content: center;
+            
+            img{
+                width: 45%;
+                margin: 25px;
+            }
+        }
+    }
+
+    section{
+        .foto-info-2{
+            display: flex;
+            justify-content: center;
+
+            img{
+                width: 45%;
+                margin: 25px;
+            }
+        }
+    }
+}

@@ -352,6 +352,23 @@ main .sobre-nosotros {
   padding-top: 15px;
 }
 
+main section .foto-info-1 {
+  display: flex;
+  justify-content: center;
+}
+main section .foto-info-1 img {
+  width: 45%;
+  margin: 25px;
+}
+main section .foto-info-2 {
+  display: flex;
+  justify-content: center;
+}
+main section .foto-info-2 img {
+  width: 45%;
+  margin: 25px;
+}
+
 .boton-1, main .link-comprar {
   background-color: #224948;
   color: #FFE7A9;
