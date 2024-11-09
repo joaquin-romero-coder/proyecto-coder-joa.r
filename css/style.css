@@ -428,6 +428,7 @@ main section .foto-info-2 img {
     display: none;
   }
   main .container-maquillajes-1 {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -436,12 +437,11 @@ main section .foto-info-2 img {
     gap: 75px;
   }
   main .container-maquillajes-1 img {
-    justify-content: center;
-    align-items: center;
     margin-bottom: 30px;
     gap: 40px;
   }
   main .container-maquillajes-2 {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -450,12 +450,11 @@ main section .foto-info-2 img {
     gap: 75px;
   }
   main .container-maquillajes-2 img {
-    justify-content: center;
-    align-items: center;
     margin-bottom: 30px;
     gap: 40px;
   }
   main .container-fragancias-1 {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -470,6 +469,7 @@ main section .foto-info-2 img {
     gap: 40px;
   }
   main .container-fragancias-2 {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -484,6 +484,7 @@ main section .foto-info-2 img {
     gap: 40px;
   }
   main .container-piel-1 {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -498,6 +499,7 @@ main section .foto-info-2 img {
     gap: 40px;
   }
   main .container-piel-2 {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
